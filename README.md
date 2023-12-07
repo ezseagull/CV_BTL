@@ -1,19 +1,29 @@
-#Detect disease using chest x-ray image and deep learning
-
+# Chest X-ray Disease Detection with YOLOv8 and mmdetection
+<a href="https://github.com/DucHai972/CV_BTL/tree/master"><img src="https://i.imgur.com/d8tsBxp.png" height="480" width="480" ></a>
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This project utilizes state-of-the-art deep learning methods, YOLOv8 and mmdetection, for the detection of diseases in chest X-ray images. The combination of these two powerful frameworks allows for accurate and efficient identification of abnormalities in medical images.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+## Introduction
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Medical image analysis plays a crucial role in early disease diagnosis. This project focuses on leveraging YOLOv8 and mmdetection, two popular deep learning frameworks, to detect diseases in chest X-ray images. The models are trained on large datasets to recognize various abnormalities, providing a valuable tool for healthcare professionals.
 
-Use the `BLANK_README.md` to get started.
+<h2 id="models">Models</h2>
+
+  <h3>YOLOv8</h3>
+
+  <p>YOLOv8, short for "You Only Look Once version 8," is an efficient and accurate object detection model. It divides an
+    image into a grid and predicts bounding boxes and class probabilities for each grid cell.</p>
+
+  <h3>mmdetection</h3>
+
+  <p>mmdetection is an open-source framework for object detection. It supports a variety of pre-trained models and
+    provides flexibility for customizing models. In this project, mmdetection is used for its versatility and
+    robustness.</p>
+
+
+  <h2 id="contributing">Contributing</h2>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
