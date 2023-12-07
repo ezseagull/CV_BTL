@@ -17,9 +17,9 @@ Medical image analysis plays a crucial role in early disease diagnosis. This pro
   <p>YOLOv8, short for "You Only Look Once version 8," is an efficient and accurate object detection model. It divides an
     image into a grid and predicts bounding boxes and class probabilities for each grid cell.</p>
 
-  <h3>mmdetection</h3>
+  <h3>DETR</h3>
 
-  <p>mmdetection is an open-source framework for object detection. It supports a variety of pre-trained models and
+  <p>DETR is an open-source framework for object detection. It supports a variety of pre-trained models and
     provides flexibility for customizing models. In this project, mmdetection is used for its versatility and
     robustness.</p>
 
